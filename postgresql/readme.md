@@ -18,6 +18,12 @@ docker-compose -f ./postgresql/docker-compose.yml up
 - Enter respective credentials after selecting system as `PostgreSQL` and hit login
 - You are connected to postgresql GUI and good to go now!
 
+# If you want to connect with database url, you can use follwing  url:
+
+```bash
+postgresql://chaiaurcode: chaiaurcode@localhost: 5432/chaiDB
+```
+
 # Run commands inside the container
 
 Run the following command and hit enter to know version of the PostgreSQL:
